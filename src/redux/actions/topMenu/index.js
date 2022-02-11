@@ -1,6 +1,8 @@
-export const getTopMenu = () => {
+export const getTopMenu = ()=>{
+
     return {
-        type: 'Menu',
-        data: ['Home','Kids','Accessories']
+        type :'Menu',
+        data :['Home','Kids','Accessories']
     }
+
 }
