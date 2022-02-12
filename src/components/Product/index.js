@@ -33,6 +33,11 @@ const Product = () => {
                                         <span className="fa fa-arrows-alt" />
                                     </a>
                                 </li>
+                                <li>
+                                    <a href={null}>
+                                        <span className="fa fa-shopping-cart" />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div className="product__item__text">
