@@ -20,8 +20,13 @@ const Product = () => (
                         <img className="product__item__pic" src={item} />
                         <ul className="product__hover">
                             <li>
-                                <a href={item}>
+                                <a href={item.imageSrc}>
                                     <span className="fa fa-arrows-alt" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href={null}>
+                                    <span className="fa fa-shopping-cart" />
                                 </a>
                             </li>
                         </ul>
